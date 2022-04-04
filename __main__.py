@@ -31,7 +31,7 @@ def main():
     parser.add_argument("-r", "--rotation", action='store_true', help='Write rotations to CSV as well.')
     args = parser.parse_args()
     '''
-    file_in = "./bvh-converter-master/bvh_converter/res/140_02.bvh"
+    file_in = "./bvh-converter-master/bvh_converter/res/jogging.bvh"
     do_rotations = False
 
     if not os.path.exists(file_in):
